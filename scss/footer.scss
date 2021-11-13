@@ -1,0 +1,9 @@
+footer {
+  background-color: $site-red;
+  display: flex;
+  justify-content: center;
+  i {
+    color: $site-white;
+    font-size: 30px;
+  }
+}

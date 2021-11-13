@@ -1,0 +1,68 @@
+.projects {
+  width: 80%;
+  margin: 50px auto;
+  &__title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  .projects-group {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    a {
+      text-decoration: none;
+      .project {
+        color: $site-gray;
+        border-radius: 30px;
+        border: 1px solid $site-gray;
+        height: 200px;
+        display: flex;
+        text-decoration: none;
+        color: $site-white;
+        justify-content: center;
+        align-items: center;
+        background-color: $overlay-black;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        &--travel-fly {
+          background-image: linear-gradient(
+              to right,
+              $overlay-black,
+              $overlay-black
+            ),
+            url(../images/travel-fly.jpg);
+        }
+        &--eventsy {
+          background-image: linear-gradient(
+              to right,
+              $overlay-black,
+              $overlay-black
+            ),
+            url(../images/eventsy.jpg);
+        }
+        &--connect {
+          background-image: linear-gradient(
+              to right,
+              $overlay-black,
+              $overlay-black
+            ),
+            url(../images/connect.png);
+        }
+        &--vue {
+          background-image: linear-gradient(
+              to right,
+              $overlay-black,
+              $overlay-black
+            ),
+            url(../images/vue.png);
+        }
+      }
+    }
+    // .project--travel-fly {
+    //   background-image: ;
+    // }
+  }
+}
