@@ -146,22 +146,20 @@ footer i {
           justify-content: center;
 }
 .about__bio {
-  height: 600px;
-  width: 70%;
+  height: 500px;
+  width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   background-color: #2e3732;
 }
 .about__bio__headshot {
-  background-image: url(../images/headshot.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   width: 40%;
   height: 100%;
 }
-
+.about__bio__headshot img {
+  height: 100%;
+}
 .projects {
   width: 80%;
   margin: 50px auto;
