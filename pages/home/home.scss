@@ -1,6 +1,7 @@
 .home {
   width: 80%;
   margin: 50px auto;
+  color: $site-gray;
   &__top {
     display: flex;
     flex-direction: column;
@@ -28,10 +29,29 @@
       width: 100%;
       grid-template-columns: 1fr 1fr 1fr;
       gap: 30px;
+      a {
+        text-decoration: none;
+      }
       .project {
         height: 250px;
         border-radius: 20px;
         background-color: $overlay-black;
+        color: $site-white;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        &--travel-fly {
+          background-image: linear-gradient(
+              to right,
+              $overlay-black,
+              $overlay-black
+            ),
+            url(../images/travel-fly.jpg);
+        }
       }
     }
   }

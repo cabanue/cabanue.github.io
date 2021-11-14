@@ -8,13 +8,14 @@
     height: 500px;
     width: 60%;
     display: flex;
-
-    background-color: $site-gray;
+    border: 1px solid $site-gray;
+    border-radius: 20px;
     &__headshot {
       width: 40%;
       height: 100%;
       img {
         height: 100%;
+        border-radius: 20px;
       }
     }
     &__info {

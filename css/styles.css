@@ -82,14 +82,15 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
 }
-footer i {
+footer .social i {
   color: #e7daca;
-  font-size: 30px;
+  margin-right: 50px;
 }
 
 .home {
   width: 80%;
   margin: 50px auto;
+  color: #2e3732;
 }
 .home__top {
   display: -webkit-box;
@@ -127,10 +128,31 @@ footer i {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
 }
+.home .recent-projects .projects a {
+  text-decoration: none;
+}
 .home .recent-projects .projects .project {
   height: 250px;
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.4);
+  color: #e7daca;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+.home .recent-projects .projects .project--travel-fly {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/travel-fly.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/travel-fly.jpg);
 }
 
 .about {
@@ -151,7 +173,8 @@ footer i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #2e3732;
+  border: 1px solid #2e3732;
+  border-radius: 20px;
 }
 .about__bio__headshot {
   width: 40%;
@@ -159,6 +182,7 @@ footer i {
 }
 .about__bio__headshot img {
   height: 100%;
+  border-radius: 20px;
 }
 .projects {
   width: 80%;
@@ -189,14 +213,15 @@ footer i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-decoration: none;
-  color: #e7daca;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: #e7daca;
   background-color: rgba(0, 0, 0, 0.4);
   background-size: cover;
   background-position: center;
