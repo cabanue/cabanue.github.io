@@ -9,8 +9,12 @@ nav {
     align-items: center;
     justify-content: space-between;
     .nav-logo {
-      height: 50px;
-      width: 50px;
+      height: 70px;
+      width: 70px;
+      background-image: url(../images/logo.png);
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
     }
     .nav-links {
       width: 40%;

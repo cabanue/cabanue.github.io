@@ -1,0 +1,22 @@
+.about {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // background-color: $site-gray;
+  &__bio {
+    height: 600px;
+    width: 70%;
+    display: flex;
+
+    background-color: $site-gray;
+    &__headshot {
+      background-image: url(../images/headshot.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 40%;
+      height: 100%;
+    }
+  }
+}

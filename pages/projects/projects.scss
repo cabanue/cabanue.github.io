@@ -1,6 +1,7 @@
 .projects {
   width: 80%;
   margin: 50px auto;
+  padding-bottom: 90px;
   &__title {
     text-align: center;
     font-size: 40px;
@@ -17,7 +18,7 @@
         color: $site-gray;
         border-radius: 30px;
         border: 1px solid $site-gray;
-        height: 200px;
+        height: 300px;
         display: flex;
         text-decoration: none;
         color: $site-white;

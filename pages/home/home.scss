@@ -1,0 +1,38 @@
+.home {
+  width: 80%;
+  margin: 50px auto;
+  &__top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__logo {
+      height: 300px;
+      width: 300px;
+      background-image: url(../images/logo.png);
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-bottom: 30px;
+    }
+    &__title {
+    }
+  }
+  .recent-projects {
+    &__title {
+      font-size: 60px;
+      text-align: center;
+    }
+    .projects {
+      display: grid;
+      width: 100%;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 30px;
+      .project {
+        height: 250px;
+        border-radius: 20px;
+        background-color: $overlay-black;
+      }
+    }
+  }
+}
