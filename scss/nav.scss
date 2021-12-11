@@ -23,10 +23,11 @@ nav {
       a {
         font-size: 20px;
         text-decoration: none;
-        color: $site-gray;
+        color: $site-white;
       }
       .current {
-        color: $site-white;
+        // color: $site-white;
+        text-decoration: underline;
       }
     }
   }

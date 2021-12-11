@@ -3,22 +3,40 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  // background-color: $site-gray;
+
   &__bio {
-    height: 500px;
+    min-height: 500px;
     width: 60%;
     display: flex;
     border: 1px solid $site-gray;
     border-radius: 20px;
     &__headshot {
       width: 40%;
-      height: 100%;
-      img {
-        height: 100%;
-        border-radius: 20px;
-      }
+      min-height: 500px;
+      background-image: url(../images/headshot.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 20px;
     }
     &__info {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-self: center;
+      text-align: center;
+      padding: 10px;
+      &__title {
+        font-size: 35px;
+      }
+      &__paragraph {
+        font-size: 20px;
+      }
+      &__languages {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+      }
     }
   }
 }

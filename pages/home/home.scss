@@ -2,6 +2,7 @@
   width: 80%;
   margin: 50px auto;
   color: $site-gray;
+  padding-bottom: 10px;
   &__top {
     display: flex;
     flex-direction: column;
@@ -33,24 +34,46 @@
         text-decoration: none;
       }
       .project {
-        height: 250px;
+        height: 300px;
         border-radius: 20px;
         background-color: $overlay-black;
         color: $site-white;
+        font-size: 20px;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         display: flex;
+        flex-direction: column;
+        padding: 10px;
         align-items: center;
         justify-content: center;
         text-align: center;
-        &--travel-fly {
+        .title {
+          font-size: 30px;
+        }
+        &--jungle-cook {
           background-image: linear-gradient(
               to right,
               $overlay-black,
               $overlay-black
             ),
-            url(../images/travel-fly.jpg);
+            url(../images/jungle-cook.jpg);
+        }
+        &--keurig {
+          background-image: linear-gradient(
+              to right,
+              $overlay-black,
+              $overlay-black
+            ),
+            url(../images/keurig.png);
+        }
+        &--gamewish {
+          background-image: linear-gradient(
+              to right,
+              $overlay-black,
+              $overlay-black
+            ),
+            url(../images/gamewish.png);
         }
       }
     }
