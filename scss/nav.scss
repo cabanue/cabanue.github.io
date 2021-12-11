@@ -1,6 +1,7 @@
 nav {
   height: 75px;
   background-color: $site-red;
+  color: $site-white;
   .nav-content {
     margin: 0 auto;
     height: 100%;
@@ -11,10 +12,11 @@ nav {
     .nav-logo {
       height: 70px;
       width: 70px;
-      background-image: url(../images/logo.png);
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
+      font-size: 30px;
+      letter-spacing: 3px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .nav-links {
       width: 40%;
@@ -26,7 +28,6 @@ nav {
         color: $site-white;
       }
       .current {
-        // color: $site-white;
         text-decoration: underline;
       }
     }
